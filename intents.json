@@ -1,0 +1,45 @@
+{
+  "intents": [
+    {
+      "intent": "ConversionIntent",
+      "slots": [
+        {
+          "name": "quantity",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "fromConversion",
+          "type": "fromType"
+        },
+        { "name": "toConversion",
+          "type": "toType"
+        }
+      ]
+    },
+
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "DontKnowIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
